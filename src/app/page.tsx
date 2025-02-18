@@ -74,7 +74,7 @@ export default function Home() {
                     className="mx-auto w-full flex gap-4 items-center p-4 bg-gray-100 rounded transition-transform duration-300 hover:translate-y-[-10px] cursor-pointer hover:opacity-95"
                   >
 
-                    <div className="max-w-32 max-h-32 bg-gray-200 rounded-full aspect-square">
+                    <div className="w-32 h-32 bg-gray-200 rounded-full aspect-square">
                       <Image src={item.img} alt={item.nome} className="w-32 h-32 object-cover rounded-full" width={100} height={100}/>
                     </div>
 
@@ -193,7 +193,8 @@ export default function Home() {
               <Link href="/portfolio" className="py-4 px-12 rounded text-white bg-blue-500 font-bold text-nowrap hover:opacity-90">Portfólio</Link>
             </div>
 
-            <div className="w-full h-[300px] bg-blue-700">
+            <div className="w-full h-[300px] bg-blue-700 text-white text-center">
+              WIP: Aqui Lista de clientes da CTZ
             </div>
 
           </div>
